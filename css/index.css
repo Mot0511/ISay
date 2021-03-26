@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.header{
+  width: 102%;
+  height: 60px;
+  background-color: #26C000;
+  margin-top: -40px;
+  margin-left: -8px;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+.header p{
+  color: white;
+  font-size: 40px;
+  margin-left: 70px;
+}
+.search_div{
+  display: flex;
+  margin-left: 200px;
+  margin-top: -78px;
+}
+.search_div input{
+  border-radius: 6px;
+  width: 600px;
+  height: 40px;
+  background: #1C8C00;
+  color: white;
+}
+.search_div input::placeholder{
+  color: white;
+}
+.search_div button{
+  border: 0px;
+  width: 60px;
+  height: 40px;
+  background: #33FF00;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+.log_sign_bts{
+  float: right;
+  margin-right: 20px;
+  margin-top: -40px;
+}
+.log_bt{
+  border: 0px;
+  width: 60px;
+  height: 40px;
+  background: #33FF00;
+  border-radius: 6px;
+
+}
+.sign_bt{
+  border: 0px;
+  width: 150px;
+  height: 40px;
+  background: #D0E200;
+  border-radius: 6px;
+}
+.menu{
+  display: flex;
+}
+.menu div{
+  display: flex;
+  margin-left: 10px;
+}
+.menu div p{
+  
+}
