@@ -33,9 +33,13 @@ p{
   border: 0px;
   width: 60px;
   height: 40px;
-  background: #33FF00;
+  background-color: #33FF00;
   border-radius: 6px;
   margin-left: 10px;
+  transition: background-color 0.3s;
+}
+.search_div button:hover{
+  background-color: #2bd600;
 }
 .log_sign_bts{
   float: right;
@@ -46,24 +50,61 @@ p{
   border: 0px;
   width: 60px;
   height: 40px;
-  background: #33FF00;
+  background-color: #33FF00;
   border-radius: 6px;
+  transition: background-color 0.3s;
 
+}
+.log_bt:hover{
+  background-color: #2bd600;
 }
 .sign_bt{
   border: 0px;
   width: 150px;
   height: 40px;
-  background: #D0E200;
+  background-color: #D0E200;
   border-radius: 6px;
+  transition: background-color 0.3s;
+}
+.sign_bt:hover{
+  background-color: #adbd00;
 }
 .menu{
   display: flex;
+  width: 100%;
 }
 .menu div{
   display: flex;
+  background-color: #B4B4B4;
+  border-radius: 0px 0px 6px 6px;
+  width: 25%;
   margin-left: 10px;
+  margin-top: 0px;
+  transition: background-color 0.5s;
 }
-.menu div p{
-  
+.menu div:hover{
+  background-color: #858585;
+}
+.menu div a{
+  font-size: 36px;
+  color: white;
+  padding-left: 20%;
+  text-decoration: none;
+}
+.menu div a{
+  color: white;
+}
+.posts{
+  margin-top: 40px;
+  margin-left: 10px;
+  width: 97%;
+}
+.post{
+  width: 600px;
+  height: 300px;
+  background-color: #C4C4C4;
+  border-radius: 10px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
 }
